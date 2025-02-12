@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore and Indulge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="desired_script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Explore and Indulge</h1>
+        <nav>
+            <div class="navBar">
+                <a href="index.html">Home</a>
+                <a href="desired.html" class="selectedPage">What would you like to do?</a>
+                <a href="suggestions.html">Suggestions?</a>
+                <a href="about.html">Our Why?</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Explore and Indulge: Find Your Perfect Date Idea</h1>
+    
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Explore')">Explore</button>
+            <button class="tablinks" onclick="openTab(event, 'Indulge')">Indulge</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Explore" class="tabcontent">
+            <form id="exploreForm">
+                <h2>Do you prefer indoor or outdoor activities?</h2>
+                <label><input type="radio" name="environment" value="indoor" required> Indoor</label><br>
+                <label><input type="radio" name="environment" value="outdoor" required> Outdoor</label><br><br>
+
+                <h2>What is your price range?</h2>
+                <label><input type="radio" name="priceRange" value="0-25" required> $0-25</label><br>
+                <label><input type="radio" name="priceRange" value="25-50" required> $25-50</label><br>
+                <label><input type="radio" name="priceRange" value="50-100" required> $50-100</label><br>
+                <label><input type="radio" name="priceRange" value="100+" required> $100+</label><br><br>
+
+                <input type="submit" value="Find Date Ideas">
+            </form>
+        </div>
+
+        <div id="Indulge" class="tabcontent">
+            <form id="indulgeForm">
+                <h2>Would you like to have indoor or outdoor seating?</h2>
+                <label><input type="radio" name="environment" value="indoor" required> Indoor Seating</label><br>
+                <label><input type="radio" name="environment" value="outdoor" required> Outdoor Seating</label><br><br>
+
+                <h2>What is your price range are you looking for?</h2>
+                <label><input type="radio" name="priceRange" value="0-25" required> $0-25</label><br>
+                <label><input type="radio" name="priceRange" value="25-50" required> $25-50</label><br>
+                <label><input type="radio" name="priceRange" value="50-100" required> $50-100</label><br>
+                <label><input type="radio" name="priceRange" value="100+" required> $100+</label><br><br>
+
+                <input type="submit" value="Find Dining Ideas">
+            </form>
+        </div>
+
+        <div id="result" class="result"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explore and Indulge</p>
+    </footer>
+</body>
+</html>

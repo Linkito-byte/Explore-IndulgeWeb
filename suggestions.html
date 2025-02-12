@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore and Indulge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="suggestions_script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Explore and Indulge</h1>
+        <nav>
+            <div class="navBar">
+                <a href="index.html">Home</a>
+                <a href="desired.html">What would you like to do?</a>
+                <a href="suggestions.html" class="selectedPage">Suggestions?</a>
+                <a href="about.html">Our Why?</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Submit Your Suggestions for the Website</h1>
+        <form id="suggestionForm">
+            <label for="name">Enter your name:</label><br>
+            <input type="text" id="name" name="name"><br>
+    
+            <label for="anonymous">Submit anonymously:</label>
+            <input type="checkbox" id="anonymous" name="anonymous"><br><br>
+    
+            <label for="suggestion">Enter your suggestion:</label><br>
+            <textarea id="suggestion" name="suggestion" rows="4" required></textarea><br>
+    
+            <input type="submit" value="Submit Suggestion">
+        </form>
+    
+        <h2>Suggestions:</h2>
+        <div id="suggestions"> <!-- Suggestions will appear here --> </div>
+
+        </main>
+    <footer>
+        <p>&copy; 2024 Manana | <a href="https://validator.w3.org/">HTML Validation</a> | <a href="https://jigsaw.w3.org/css-validator/">CSS Validation</a></p>
+    </footer>
+</body>
+</html>

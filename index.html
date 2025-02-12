@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore and Indulge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index_script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Explore and Indulge</h1>
+        <nav>
+            <div class="navBar">
+                <a href="index.html" class="selectedPage">Home</a>
+                <a href="desired.html">What would you like to do?</a>
+                <a href="suggestions.html">Suggestions?</a>
+                <a href="about.html">Our Why?</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <br>
+            <p>Have you ever been stuck on what to do and where to go to impress your next, hot date?</p>
+            <p>Click below and figure out your game plan before it's too late!</p>
+            <br><br>
+            <h2><a href="desired.html">Explore</a></h2>
+            <br><br>
+
+            <!-- Carousel 1 -->
+            <div class="carousel-container" id="carousel-1">
+                <button class="carousel-btn left">&#9664;</button><i class="fa-solid fa-chevron-left"></i></button>
+                <ul class="carousel">
+                    <li class="carousel-item active"><img src="https://lp-cms-production.imgix.net/2024-06/shutterstock1314851969.jpg" alt="Fountain near Uptown Charlotte"></li>
+                    <li class="carousel-item"><img src="https://travel2next.com/wp-content/uploads/charlotte-north-carolina.jpg" alt="Metalmorphosis in Charlotte"></li>
+                    <li class="carousel-item"><img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.wwaytv3.com/content/uploads/2021/05/p/r/MGN_1280x960_90602P00-YHQXE-1024x768.jpg" alt="overhead view of Carowinds"></li>
+                </ul>
+                <button class="carousel-btn right">>&#9654;<i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-nav">
+                    <div class="nav-item active"></div>
+                    <div class="nav-item"></div>
+                    <div class="nav-item"></div>
+                </div>
+            </div>
+            <br><br>
+            <p>Charlotte is full of different activities such as museums, scavenger hunts, and outdoor activities.</p>
+        </section>
+
+        <section>
+            <br>
+            <h2><a href="desired.html">Indulge</a></h2>
+            <br><br>
+
+            <!-- Carousel 2 -->
+            <div class="carousel-container" id="carousel-2">
+                <button class="carousel-btn left">&#9664;<i class="fa-solid fa-chevron-left"></i></button>
+                <ul class="carousel">
+                    <li class="carousel-item active"><img src="https://www.brides.com/thmb/VFObP_ytabV1Nk5WAp8CkwJffys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/outdoor-date-ideas-picnic-getty-images-cfb2301512774249ba2d7a02a52e026b.jpg" alt="Two people going on a picnic"></li>
+                    <li class="carousel-item"><img src="https://tripjive.com/wp-content/uploads/2024/07/What-are-the-best-restaurants-in-Charlottes-Uptown-district.jpg" alt="Different selection of foods in Charlotte"></li>
+                    <li class="carousel-item"><img src="https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_auto,w_750,f_auto/f_auto/Charlotte-Date-Ideas-4-php4MIgqm" alt="Picture on the roof of Fahrenheit Charlotte"></li>
+                </ul>
+                <button class="carousel-btn right">&#9654;<i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-nav">
+                    <div class="nav-item active"></div>
+                    <div class="nav-item"></div>
+                    <div class="nav-item"></div>
+                </div>
+            </div>
+
+            <br><br>
+            <p>There are a wide variety of foods with a wide variety of price ranges to choose from here!</p>
+            <br>
+            <br>
+            <h3>In a rush? Need a quick restaurant option? Here are 10 to choose from. Enjoy!
+                <br>
+            </h3>
+            <button id="fetchPlacesButton">Fetch Restaurants in Charlotte</button>
+            <div id="placesList"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Manana | <a href="https://validator.w3.org/">HTML Validation</a> | <a href="https://jigsaw.w3.org/css-validator/">CSS Validation</a></p>
+    </footer>
+</body>
+</html>
